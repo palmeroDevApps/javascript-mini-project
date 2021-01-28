@@ -1,0 +1,63 @@
+#global {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+nav .modified-shipping-font {
+    font-size: 15px;
+}
+
+#conteinerProducts {
+    padding-top: 25px;
+}
+
+#conteinerProducts .conteinerProducts-products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#conteinerProducts .conteinerProducts-products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#conteinerProducts .conteinerProducts-products .conteinerProducts-products-product {
+    text-align: -webkit-center;
+}
+
+#conteinerProducts .conteinerProducts-products .conteinerProducts-products-product img {
+    height: 250px;
+    width: 100%;
+    /*padding-right: 27px;*/
+}
+
+#carritoComprasSection {
+    padding-top: 50px;
+    padding-left: 25px;
+}
+
+img.carritoSectionImage {
+    height: 160px;
+    width: 165px;
+}
+
+.articleShipCartSpace {
+    padding-left: 10px;
+}
+
+#carritoComprasProductContainer{
+    padding: 5px 0px 15px 11px;
+}
+
+#totalCarrito{
+    padding-left: 15px;
+    padding-bottom: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto javascript</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--Bootstrap Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <link rel="StyleSheet" href="./css/styles.css" type="text/css" media="screen">
+    <!-- Adaptar la página web a responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Lógica JS -->
+    <script src="js/ClassShippingCart.js"></script>
+    <script src="js/ClassArticle.js"></script>
+    <script src="js/shippingCartBL.js"></script>
+    <script src="js/jsonArticles.js"></script>
+    <script src="js/articleBL.js"></script>
+    <script src="js/ClassArticleShippingCart.js"></script>
+
+</head>
+
+<body>
+    <div id="global">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Generics</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sponsors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Help</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <span class="modified-shipping-font">En carrito: </span>
+                        <span class="modified-shipping-font" id="articlesDisplayQty"></span>
+                        <a href=""><i class="fa fa-shopping-cart" style="font-size:24px"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--contenedor de todos los productos-->
+        <section id="productSection">
+            <!--Acá se inicializan todos los productos del json en filas de 3 columnas-->
+            <div id="conteinerProducts">
+            </div>
+        </section>
+        <!--Carrito de Compras-->
+        <section id="carritoComprasSection">
+            <div>
+                <h2>Carrito de Compras</h2>
+            </div>
+            <div id="carritoComprasProductContainer">
+            </div>
+            <div id="totalCarrito">
+            </div>
+            <div id="completeTransactionConteiner">
+            </div>
+        </section>
+        
+    </div>
+</body>
+
+</html>
